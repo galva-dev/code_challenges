@@ -15,7 +15,7 @@ def quitar_lineas_vacias(archivo_entrada, archivo_salida):
         salida.write(linea)
 
 # Ejemplo de uso
-archivo_entrada = './resources/dirty.txt'
-archivo_salida = './resources/clean.txt'
+archivo_entrada = '/home/alvaro/Documents/My Code/code_challenges/python/algorithms/basic/resources/dirty.txt'
+archivo_salida = '/home/alvaro/Documents/My Code/code_challenges/python/algorithms/basic/resources/clean.txt'
 
 quitar_lineas_vacias(archivo_entrada, archivo_salida)
