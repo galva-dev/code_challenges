@@ -12,7 +12,7 @@ def quitar_lineas_vacias(archivo_entrada, archivo_salida):
       # Revisa si la línea contiene solo espacios en blanco
       if not linea.isspace():
         # Si no es una línea en blanco, escríbela en el archivo de salida
-        salida.write(linea)
+        salida.write(f"0 -0.5 {str(linea)}" )
 
 # Ejemplo de uso
 archivo_entrada = '/home/alvaro/Documents/My Code/code_challenges/python/algorithms/basic/resources/dirty.txt'
